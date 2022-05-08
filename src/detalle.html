@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="img/logo/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/moment" ></script>
+    <script type="module" src="js/app.js"></script>
+    <title>My First Parcel App</title>
+  </head>
+  <body>
+    <header class="header_section">
+      <div class="navigation">
+        <a href="index.html"><img class="logo" src="img/logo.svg" alt="Logo"></a>
+        <p class="navigation-title">Portal Biográfico</p>
+        <nav class="header_section_navigation" >
+        <ul>
+            <li><a href="categoria.html">Categoría </a></li>
+            <li><a href="presentacion.html">Presentación  </a></li>
+            <li><a href="enlaces.html">Enlaces </a></li>
+        </ul>
+        </nav>
+    </div>
+    </header>
+    <main class="contenido">
+      <div class="main_detalle_content">
+        <h1> Temporada 1: Dinastía</h1>
+        <div class="main_detalle_content_text">
+          <p class="autor">Autor: Haizea Martin Alzueta</p>
+          <p class="date" id="date"></p>
+        </div>
+        <div class="main_detalle_content_img">
+          <figure class="main_detalle_content_img-image"> 
+            <img src="img/season1_caracters.jpg" alt="Personajes de la temporada 1"> 
+            <figcaption>
+              <span>Personajes de la temporada 1</span>
+            </figcaption> 
+          </figure>
+        </div>
+       
+        
+        <div class="main_detalle_content_text">
+        
+        <p>Sintiéndose menospreciado por Blake, Fallon se convierte en su rival comercial, respaldada por el némesis de Blake, Jeff Colby.</p>
+        <p>Blake bloquea el uso de Fallon del nombre Carrington para su nueva empresa comercial, por lo que busca influencia sobre él. Ella filtra un video sexual de Cristal y su ex amante Matthew Blaisdel a la prensa. Blake se entera de que Fallon filtró el video de Cristal y la echa de la mansión. Fallon está celoso de que Michael esté saliendo con Kori Rucks, pero su relación resiste la intromisión de Fallon. La relación de Michael con Kori implosiona debido a sus persistentes sentimientos por Fallon, quien se recupera con Jeff.</p>
+
+        <p>Fallon ayuda a Blake y Cristal a darle la vuelta al cuñado criminal de Cristal, Alejandro Raya, pero a su vez es secuestrado por la hermana de Cristal, Iris. </p>
+
+        <p>Monica manipula a Fallon para que acepte la propuesta de matrimonio de Jeff, pero Fallon descubre la duplicidad de Jeff y recluta a Michael para que la ayude contra los Colby. Jeff le presenta a Fallon la propiedad total de su empresa Morell Co y un plan para que intercambien el 25 % de Carrington Atlantic y Colby. Con Fallon y Jeff en el altar y el servidor aún intacto, Blake intenta detener la ceremonia, pero Fallon lo cierra. Luego, les revela a los atónitos Colby y su familia que el matrimonio no es válido porque se casó con otra persona, Liam Ridley, la noche anterior.</p>
+        
+        <picture class="detalle-picture"> 
+          <source srcset="img/season1.jpg 1x" media="(min-width: 0px) and (max-width: 550px)" >
+          <source srcset="img/season1-550.jpg 1x" media="(min-width: 551px)" >
+          <source srcset="img/season1-1200.jpg 1x" media="(min-width: 1024px)" >
+          <img class="w-100" src="img/season1.jpg" alt="Temporada 1"> 
+        </picture>
+
+        <h2>Videos:</h2>
+        <div class="video_card">
+          <iframe src="https://www.youtube.com/embed/PzBX_c-F6sk" title="YouTube video player" allowfullscreen></iframe>
+          <p>Trailer de la temporada 1</p>
+        </div>
+      </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-image">
+          <a href="index.html"><img class="footer-logo" src="img/logo.svg" alt="Logo"></a>
+        </div>
+        <div class="footer-navigation">
+          <nav class="footer_section_navigation" >
+            <ul>
+                <li><a href="categoria.html">Categoría </a></li>
+                <li><a href="presentacion.html">Presentación  </a></li>
+                <li><a href="enlaces.html">Enlaces </a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-section">
+          <p>Trabajo realizado por Haizea Martin Alzueta. Asignatura Herramientas <abbr title="HyperText Markup Language">HTML</abbr> y <abbr title="Hojas de estilo en cascada">CSS</abbr></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
