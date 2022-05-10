@@ -1,11 +1,129 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/index.77a9bc14.css">
-    <title>My First Parcel App</title>
+    <link rel="icon" href="/favicon.675a56c8.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEC 2</title>
   </head>
+
   <body>
-    <h1>Hello, World!</h1>
-  <script src="/PEC2-HerramientasHTML-CSS.59712999.js"></script></body>
+    <script>//Slider transition
+var counter = 1;
+setInterval(function() {
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if (counter > 4) counter = 1;
+}, 5000);
+
+</script>
+    <header class="header_section">
+      <div class="navigation">
+          <a href="/index.html"><img class="logo" src="/logo.8bb9af93.svg" alt="Logo"></a>
+          <p class="navigation-title">Portal Biográfico</p>
+          <nav class="header_section_navigation">
+          <ul>
+              <li><a href="/categoria.html">Categoría </a></li>
+              <li><a href="/presentacion.html">Presentación  </a></li>
+              <li><a href="/enlaces.html">Enlaces </a></li>
+          </ul>
+          </nav>
+      </div>
+    </header>
+    <main class="contenido">
+      <div class="main_content">
+        
+        <div class="slider">
+          <div class="slides">
+             <input type="radio" name="radio-btn" id="radio1">
+             <input type="radio" name="radio-btn" id="radio2">
+             <input type="radio" name="radio-btn" id="radio3">
+             <input type="radio" name="radio-btn" id="radio4">
+          
+            <!--slide images start-->
+            <div class="slide first">
+              <img src="/season1_caracters.30fadea9.jpg" alt="Elizabeth-Gillies">
+            </div>
+           <div class="slide">
+              <img src="/caracters.1594df1f.jpg" alt="Personajes principales temporada 1">
+           </div>
+           <div class="slide">
+              <img src="/caracters2.ed19533c.jpg" alt="Personajes principales temporada 2">
+           </div>
+           <div class="slide">
+              <img src="/caracters3.1ff574f6.jpg" alt="Personajes de la temporada 3">
+           </div>
+          
+         </div>
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+        </div> 
+        <div class="main_content_columns_center">
+          <div class="main_content_columns">
+            <h1 class="fist_title">Fallon Carrington</h1>
+            <div class="main_content_section1">
+              <div class="img_fallon">
+                <img src="/fallon-carrington.91296f59.jpg" alt="Fallon Carrington">
+              </div>
+            </div>
+            <div class="main_content_section2">
+              <h1 class="second_title"> Fallon Carrington</h1>
+              <h2>Personaje de la serie Dinastía</h2>
+              <div class="main_content_section2_text">
+                <p><cite>Heredera, manipuladora, fogosa y experta en negocios</cite></p>
+              </div>
+              <div class="fallon-table">
+                <table class="fallon-data">
+                  <caption>Información general</caption>
+                  <tbody>
+                    <tr>
+                      <th>Nombre real</th>
+                      <td>Elizabeth Gillies</td>
+                    </tr>
+                    <tr>
+                      <th>Ocupación </th>
+                      <td>Actriz, cantante</td>
+                    </tr>
+                    <tr>
+                      <th>Años activa</th>
+                      <td>2005 - Actualidad</td>
+                    </tr>
+                    <tr>
+                      <th>Debut</th>
+                      <td>A los 15 años en el musical 13, interpretando al personaje Lucy</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-image">
+          <a href="/index.html"><img class="footer-logo" src="/logo.8bb9af93.svg" alt="Logo"></a>
+        </div>
+        <div class="footer-navigation">
+          <nav class="footer_section_navigation">
+            <ul>
+                <li><a href="/categoria.html">Categoría </a></li>
+                <li><a href="/presentacion.html">Presentación  </a></li>
+                <li><a href="/enlaces.html">Enlaces </a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-section">
+          <p>Trabajo realizado por Haizea Martin Alzueta. Asignatura Herramientas <abbr title="HyperText Markup Language">HTML</abbr> y <abbr title="Hojas de estilo en cascada">CSS</abbr></p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
