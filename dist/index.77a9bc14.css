@@ -142,7 +142,7 @@ p {
   display: flex;
 }
 
-.slides input {
+.slides fieldset {
   display: none;
 }
 
@@ -170,6 +170,10 @@ p {
   border-radius: 10px;
   padding: 5px;
   transition: all 1s;
+}
+
+.manual-btn p {
+  display: none;
 }
 
 .manual-btn:not(:last-child) {
@@ -433,8 +437,10 @@ figcaption {
 }
 
 .autor {
-  color: var(--red);
+  color: var(--black);
   font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
   line-height: 0;
 }
 
@@ -484,7 +490,7 @@ figcaption {
   }
 }
 
-.main_presentation_content_img img {
+.main_presentation_content_img_image {
   width: 50%;
   justify-content: center;
   margin: 5% auto 0 25%;
@@ -495,6 +501,26 @@ figcaption {
 .main_presentation_content_text {
   text-align: justify;
   margin: 5%;
+}
+
+.life-logo {
+  height: 70px;
+  width: 90px;
+  animation: myAnim 2s cubic-bezier(.5, 0, .75, 0) infinite forwards;
+}
+
+@keyframes myAnim {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.box-together {
+  display: flex;
 }
 
 @media (min-width: 550px) and (max-width: 1024px) {
@@ -594,7 +620,7 @@ figcaption {
     margin-left: 0%;
   }
 
-  .main_presentation_content_img img {
+  .main_presentation_content_img_image {
     width: 20%;
     height: 20%;
     float: left;
@@ -721,7 +747,7 @@ figcaption {
     font-weight: bold;
   }
 
-  .main_presentation_content_img img {
+  .main_presentation_content_img_image {
     width: 20%;
     height: 20%;
     float: left;
