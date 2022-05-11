@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"iFA5h":[function(require,module,exports) {
+})({"dDrpL":[function(require,module,exports) {
 "use strict";
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -529,6 +529,6 @@ function hmrAcceptRun(bundle, id) {
 let date = moment().format("YYYY/MM/DD");
 document.getElementById('date').innerHTML = date;
 
-},{}]},["iFA5h","8lRBv"], "8lRBv", "parcelRequire716c")
+},{}]},["dDrpL","8lRBv"], "8lRBv", "parcelRequire716c")
 
 //# sourceMappingURL=detalle.59a40e7a.js.map

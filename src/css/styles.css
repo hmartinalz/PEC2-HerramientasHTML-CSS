@@ -331,6 +331,15 @@ h1{
 }
 .w-100{
   width:100%;
+  height: 425px;
+}
+.box{
+
+  background:
+    url(../img/season1-190.jpg) ;
+}
+.centrada{
+    display: block;
 }
 .main_detalle_content p{
   font-size: 20px;
@@ -362,7 +371,18 @@ figcaption {
   display: block;
   bottom: 0;
 }
-
+.image_card{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1.875em;
+}
+.image_card p {
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 15px;
+}
 .video_card{
   width: 100%;
   background-color: var(--white);
@@ -489,7 +509,7 @@ figcaption {
     margin-left: 17%
   }
 
-  .categoria_colums_container{
+  .three_colums_container{
     grid-gap: 5px;
     width: 100%;
     grid-template-columns: 50% 50% ;
@@ -594,7 +614,7 @@ figcaption {
     
   }
 
-  .categoria_colums_container{
+  .three_colums_container{
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 5%;
